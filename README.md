@@ -19,6 +19,6 @@ g = A4D1CBD5 C3FD3412 6765A442 EFB99905 F8104DD2 58AC507F
     855E6EEB 22B3B2E5
  ```
  
-- [ ] Gerar um valor a menor que p e calcular _A = g^a mod p_.
-- [ ] Receber um valor B (hexadecimal) e calcular _V = B^a mod p_
-- [ ] Calcular _S = SHA256(V)_ e usar os primeiros 128 bits como senha.
+- [x] Gerar um valor a menor que p e calcular _A = g^a mod p_.
+- [x] Receber um valor B (hexadecimal) e calcular _V = B^a mod p_
+- [x] Calcular _S = SHA256(V)_ e usar os primeiros 128 bits como senha.
